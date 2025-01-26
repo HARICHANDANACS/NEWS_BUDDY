@@ -4,7 +4,7 @@
 [![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-360/)   
 
 
-## [Demo of App](https://share.streamlit.io/spidy20/innews/App.py)
+## [Demo of App]([https://share.streamlit.io/spidy20/innews/App.py](http://10.3.120.204:8501/))
 
 ## Source
 - For summarizing the news I have used [Newspaper3k](https://newspaper.readthedocs.io/en/latest/)
