@@ -198,6 +198,6 @@ def run():
             st.warning("Please Enter a Topic to Search.")
 
     # Footer
-    st.markdown("<p class='footer'>InNews © 2025. All Rights Reserved.</p>", unsafe_allow_html=True)
+    st.markdown("<p class='footer'>NEWS_BUDDY © 2025. All Rights Reserved.</p>", unsafe_allow_html=True)
 
 run()
