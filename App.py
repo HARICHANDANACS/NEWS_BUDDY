@@ -9,7 +9,7 @@ import nltk
 nltk.download('punkt')
 
 st.set_page_config(
-    page_title='NEWS_BUDDY: A Summarised News📰 Portal',
+    page_title='NEWS_BUDDY: A Summarised News📰 Portal',  # Updated page title
     page_icon='./Meta/newspaper.ico',
     layout="wide"
 )
@@ -152,7 +152,7 @@ def display_news(list_of_news, news_quantity):
             break
 
 def run():
-    st.markdown("<h1 class='title-header'>InNews🇮🇳: A Summarised News📰 Portal</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 class='title-header'>NEWS_BUDDY: A Summarised News📰 Portal</h1>", unsafe_allow_html=True)  # Updated title
     st.markdown("<p class='sub-header'>Get the latest news, customized for your interests.</p>", unsafe_allow_html=True)
 
     # Banner Image
@@ -200,4 +200,5 @@ def run():
     # Footer
     st.markdown("<p class='footer'>NEWS_BUDDY © 2025. All Rights Reserved.</p>", unsafe_allow_html=True)
 
+# Run the app
 run()
