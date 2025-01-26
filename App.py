@@ -9,7 +9,7 @@ import nltk
 nltk.download('punkt')
 
 st.set_page_config(
-    page_title='SHORT_NEWS: A Summarised News📰 Portal',
+    page_title='NEWS_BUDDY: A Summarised News📰 Portal',
     page_icon='./Meta/newspaper.ico',
     layout="wide"
 )
